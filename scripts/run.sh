@@ -14,8 +14,8 @@ cat mutatingwebhook.yaml | \
 
 3. Deploy resources
 ```
-kubectl create -f deployment/nginxconfigmap.yaml
-kubectl create -f deployment/configmap.yaml
-kubectl create -f deployment/deployment.yaml
-kubectl create -f deployment/service.yaml
-kubectl create -f deployment/mutatingwebhook-ca-bundle.yaml
+kubectl create -f nginxconfigmap.yaml
+kubectl create -f configmap.yaml
+kubectl create -f deployment.yaml
+kubectl create -f service.yaml
+kubectl create -f mutatingwebhook-ca-bundle.yaml
